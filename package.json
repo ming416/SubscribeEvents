@@ -1,18 +1,15 @@
 {
-  "name": "ming_transfer_events",
-  "version": "0.1.0",
-  "description": "Example showing how to transfer DOTs (with events)",
+  "name": "kusama-validator-stats",
+  "version": "1.0.0",
+  "description": "Display current active validators bonding info",
   "main": "index.js",
-  "author": "Stefie",
-  "license": "MIT",
   "scripts": {
-    "clean": "rimraf node_modules",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "Ming",
+  "license": "ISC",
   "dependencies": {
-    "@polkadot/api": "*"
-  },
-  "devDependencies": {
-    "rimraf": "^2.6.2"
+    "@polkadot/api": "^1.8.0-beta.12",
+    "@polkadot/util": "^1.7.1"
   }
 }
